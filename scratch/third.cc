@@ -543,6 +543,9 @@ int main(int argc, char *argv[])
 			}else if (key.compare("FCT_OUTPUT_FILE") == 0){
 				conf >> fct_output_file;
 				std::cout << "FCT_OUTPUT_FILE\t\t" << fct_output_file << '\n';
+			}else if (key.compare("THROUGHPUT_FILE") == 0){
+				conf >> throughput_file;
+				std::cout << "THROUGHPUT_FILE\t\t\t\t" << throughput_file << '\n';
 			}else if (key.compare("HAS_WIN") == 0){
 				conf >> has_win;
 				std::cout << "HAS_WIN\t\t" << has_win << "\n";

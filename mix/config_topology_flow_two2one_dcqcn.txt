@@ -9,8 +9,9 @@ TRACE_FILE mix/trace.txt
 TRACE_OUTPUT_FILE mix/mix_topology_flow_two2one_dcqcn.tr
 FCT_OUTPUT_FILE mix/fct_topology_flow_two2one_dcqcn.txt
 PFC_OUTPUT_FILE mix/pfc_topology_flow_two2one_dcqcn.txt
+THROUGHPUT_FILE mix/throughput_topology_flow_two2one_dcqcn.txt
 
-SIMULATOR_STOP_TIME 3.0
+SIMULATOR_STOP_TIME 3.5
 
 CC_MODE 1
 ALPHA_RESUME_INTERVAL 1
